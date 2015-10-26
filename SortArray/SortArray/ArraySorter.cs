@@ -36,6 +36,9 @@ namespace SortArray
                                 for (int i = 0; i < a.Count(); i++)
                                 {
                                     sum1 += a[i];
+                                }
+                                for (int i = 0; i < b.Count(); i++)
+                                {
                                     sum2 += b[i];
                                 }
                             }
@@ -70,7 +73,9 @@ namespace SortArray
                                 {
                                     if (max1 < Math.Abs(a[i]))
                                         max1 = Math.Abs(a[i]);
-
+                                }
+                                for (int i = 0; i < b.Count(); i++)
+                                {
                                     if (max2 < Math.Abs(b[i]))
                                         max2 = Math.Abs(b[i]);
                                 }
